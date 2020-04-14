@@ -19,6 +19,6 @@ public class Tetst1 {
 	}
 	public static void main(String[] args) {
 		System.out.println("get");
-		System.out.println(111);
+		int qq;
 	}
 }
