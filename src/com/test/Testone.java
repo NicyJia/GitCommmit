@@ -12,7 +12,7 @@ public class Testone {
 		System.out.println("nihaoa");
 		HashAttributeSet hashAttributeSet = new HashAttributeSet();
 		hashAttributeSet.toString();
-		System.out.println("nihao");
+		System.out.println("1111");
 		List list = new ArrayList<String>();
 	}
 }
