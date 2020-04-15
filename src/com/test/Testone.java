@@ -13,6 +13,7 @@ public class Testone {
 		HashAttributeSet hashAttributeSet = new HashAttributeSet();
 		hashAttributeSet.toString();
 		System.out.println("1111");
+		System.out.println("2222");
 		List list = new ArrayList<String>();
 	}
 }
