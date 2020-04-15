@@ -11,6 +11,7 @@ public class Testone {
 		System.out.println("Ïë²âÊÔÏÂ³åÍ»");
 		HashAttributeSet hashAttributeSet = new HashAttributeSet();
 		hashAttributeSet.toString();
-
+		System.out.println("nihao");
+		List list = new ArrayList<String>();
 	}
 }
