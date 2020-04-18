@@ -20,6 +20,6 @@ public class Testone {
 		//timer.schedule(task, 5000);
 		//定时器，两秒后执行，每三秒执行一次
 		timer.schedule(task, 2000, 3000);
-		
+		System.out.println("这是git 提交的测试");
 	}
 }
