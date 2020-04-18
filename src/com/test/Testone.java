@@ -1,19 +1,25 @@
 package com.test;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import javax.print.attribute.HashAttributeSet;
-
+import java.util.Timer;
+import java.util.TimerTask;
+/**
+ * 简单定时器
+ * @author Administrator
+ *
+ */
 public class Testone {
 	public static void main(String[] args) {
-
-		System.out.println("qqqqqq");
-		System.out.println("nihaoa");
-		HashAttributeSet hashAttributeSet = new HashAttributeSet();
-		hashAttributeSet.toString();
-		System.out.println("1111");
-		System.out.println("2222");
-		List list = new ArrayList<String>();
+		Timer timer = new Timer();
+		//创建任务
+		TimerTask task = new TimerTask() {
+			@Override
+			public void run() {
+				System.out.println("开始定时任务...");
+			}
+		};
+		//定时器,5秒后执行
+		//timer.schedule(task, 5000);
+		//定时器，两秒后执行，每三秒执行一次
+		timer.schedule(task, 2000, 3000);
+		
 	}
 }
